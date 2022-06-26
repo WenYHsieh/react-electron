@@ -2,7 +2,7 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const isDev = require('electron-is-dev');
-require('electron-reload');
+// require('electron-reload');
 
 function createWindow() {
   const mainWindow = new BrowserWindow({

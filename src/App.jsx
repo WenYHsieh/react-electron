@@ -82,7 +82,6 @@ export default function App() {
       id: 0,
       content: '吃飯',
       isDone: false,
-      isOnEdit: true,
     },
   ]);
 
@@ -97,7 +96,6 @@ export default function App() {
         id: id.current,
         content: value,
         isDone: false,
-        isOnEdit: false,
       },
       ...todos,
     ]);
@@ -173,7 +171,7 @@ export default function App() {
             key={todo.id}
             id={todo.id}
             content={todo.content}
-            isOnEdit={todo.isOnEdit}
+            isDone={todo.isDone}
             handleDeleteTodo={handleDeleteTodo}
             handleToggleIsDone={handleToggleIsDone}
           />
