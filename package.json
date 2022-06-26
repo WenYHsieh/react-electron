@@ -42,6 +42,9 @@
   },
   "devDependencies": {
     "concurrently": "^7.2.2",
-    "electron": "^19.0.5"
+    "electron": "^19.0.5",
+    "electron-reload": "^2.0.0-alpha.1",
+    "nodemon": "^2.0.18",
+    "styled-components": "^5.3.5"
   }
 }
